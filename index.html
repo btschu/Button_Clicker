@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<!-- top navigation bar -->
+    <div class="top-nav">
+        <h1 id="h1-nav" >Dojonary</h1>  
+        <input class="search-bar" type="text" placeholder="Search..">
+        <button class="login-btn" onclick="logOut(this)">Login</button> 
+    </div>
+    <div class="main-container">
+        
+<!-- left columns -->
+        <div class="left-container">
+            <div class="left-box-1">
+                <div class="left-col-1">
+                    <h1>ninja</h1>
+                    <h3><i>noun</i></h3>
+                    <h4>Plural: <i>ninjas</i></h4>
+                    <button class="likes-btn" onclick="alert('ninja was liked')">13 likes</button>
+                </div>
+                <div class="left-col-2">
+                    <p>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                </div>
+            </div>
+            <div class="left-box-2">
+                <div class="left-col-1">
+                    <h1>ninja</h1>
+                    <h3><i>noun</i></h3>
+                    <h4>Plural: <i>ninjas</i></h4>
+                    <button class="likes-btn" onclick="alert('ninja was liked')">37 likes</button>
+                </div>
+                <div class="left-col-2">
+                    <p>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus </p>
+                </div>    
+            </div>
+        </div>         
+    
+<!-- right columns -->
+        <div class="right-container">
+            <div class="right-box-1">
+                <h2>Dojonary is defined by <b>YOU</b> </h2>
+                <input onclick="hide(this)" class="define-btn" type="submit" value="Add Definition" > 
+            </div>
+        </div>  
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
