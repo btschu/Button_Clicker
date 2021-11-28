@@ -8,15 +8,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
 <!-- top navigation bar -->
     <div class="top-nav">
-        <h1 id="h1-nav" >Dojonary</h1>  
+        <h1 id="h1-nav" >Dojonary</h1>
         <input class="search-bar" type="text" placeholder="Search..">
-        <button class="login-btn" onclick="logOut(this)">Login</button> 
+        <button class="login-btn" onclick="logOut(this)">Login</button>
     </div>
     <div class="main-container">
-        
+
 <!-- left columns -->
         <div class="left-container">
             <div class="left-box-1">
@@ -24,7 +24,7 @@
                     <h1>ninja</h1>
                     <h3><i>noun</i></h3>
                     <h4>Plural: <i>ninjas</i></h4>
-                    <button class="likes-btn" onclick="alert('ninja was liked')">13 likes</button>
+                    <button class="likes-btn" onclick="ninjaAlert1()"><span id="addLike1">13</span> likes</button>
                 </div>
                 <div class="left-col-2">
                     <p>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
@@ -35,23 +35,23 @@
                     <h1>ninja</h1>
                     <h3><i>noun</i></h3>
                     <h4>Plural: <i>ninjas</i></h4>
-                    <button class="likes-btn" onclick="alert('ninja was liked')">37 likes</button>
+                    <button class="likes-btn" onclick="ninjaAlert2()"><span id="addLike2">37</span> likes</button>
                 </div>
                 <div class="left-col-2">
                     <p>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus </p>
-                </div>    
+                </div>
             </div>
-        </div>         
-    
+        </div>
+
 <!-- right columns -->
         <div class="right-container">
             <div class="right-box-1">
                 <h2>Dojonary is defined by <b>YOU</b> </h2>
-                <input onclick="hide(this)" class="define-btn" type="submit" value="Add Definition" > 
+                <input onclick="hide(this)" class="define-btn" type="submit" value="Add Definition" >
             </div>
-        </div>  
+        </div> 
     </div>
-    
+
     <script src="script.js"></script>
 </body>
 </html>
