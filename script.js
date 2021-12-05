@@ -14,24 +14,33 @@ function hide(element) {
     element.remove();
 }
 
-// first like button increases by 1 and alerts that it was liked when clicked
+// increase like count by 1 and alert that it was liked
 
-let addLike1 = document.querySelector("#addLike1")
-let likeCount1 = 13
-
-function ninjaAlert1() {
-    likeCount1++
-    addLike1.innerText = likeCount1
+function ninjaAlert(element) {
+    element.parentElement.querySelector("#addLike").innerHTML++
     alert("Ninja was liked!")
 }
 
-// second like button increases by 1 and alerts that it was liked when clicked
+// old solution, before I learned about parentElement
 
-let addLike2 = document.querySelector("#addLike2")
-let likeCount2 = 37
+// // first like button increases by 1 and alerts that it was liked when clicked
 
-function ninjaAlert2() {
-    likeCount2++
-    addLike2.innerText = likeCount2
-    alert("Ninja was liked!")
-}
+// let addLike1 = document.querySelector("#addLike1")
+// let likeCount1 = 13
+
+// function ninjaAlert1() {
+//     likeCount1++
+//     addLike1.innerText = likeCount1
+//     alert("Ninja was liked!")
+// }
+
+// // second like button increases by 1 and alerts that it was liked when clicked
+
+// let addLike2 = document.querySelector("#addLike2")
+// let likeCount2 = 37
+
+// function ninjaAlert2() {
+//     likeCount2++
+//     addLike2.innerText = likeCount2
+//     alert("Ninja was liked!")
+// }
