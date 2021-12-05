@@ -23,7 +23,7 @@ function ninjaAlert(element) {
 
 // old solution, before I learned about parentElement
 
-// // first like button increases by 1 and alerts that it was liked when clicked
+// first like button increases by 1 and alerts that it was liked when clicked
 
 // let addLike1 = document.querySelector("#addLike1")
 // let likeCount1 = 13
@@ -34,7 +34,7 @@ function ninjaAlert(element) {
 //     alert("Ninja was liked!")
 // }
 
-// // second like button increases by 1 and alerts that it was liked when clicked
+// second like button increases by 1 and alerts that it was liked when clicked
 
 // let addLike2 = document.querySelector("#addLike2")
 // let likeCount2 = 37
